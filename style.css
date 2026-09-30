@@ -1,0 +1,41 @@
+body {
+    background-color: #515bd4;
+}
+
+/* CONTAINER FOR THE MEME */
+div { 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10% auto;
+    max-width: 90%;
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+/* TEXT STYLING */
+h2 {
+    font-family: "Impact";
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+	-webkit-text-stroke: 1.5px black;
+    width: 100%;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/* UPPER TEXT POSITION */
+#upper {
+    top: 10px;
+}
+
+/* BOTTOM TEXT POSITION */
+#lower {
+    bottom: 10px;
+}
